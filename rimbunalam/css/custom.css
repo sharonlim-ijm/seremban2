@@ -1,0 +1,399 @@
+/* Add here all your CSS customizations */
+
+@font-face {
+    font-family: "My Custom Font";
+    src: url(/fonts/arial.ttf) format("truetype");
+}
+#sec2 .p-5.my-5 {
+    margin-bottom: 25px !important;
+}
+
+#services .row.mb-lg-3 .col-lg-2 {
+    max-width: 25% !important;
+    width: 25% !important;
+    flex: 20% !Important;
+}
+
+p.customfont { 
+    font-family: "Arial";
+}
+
+.tp-bullets, .tp-leftarrow, .tp-rightarrow{
+        visibility: visible !important;
+        opacity:1 !important;
+}
+
+.mfp-image-holder .mfp-close {
+    color: #fff !important;
+    right: 11px !Important;
+}
+
+.sticky-header-active .lastbutton a {
+    margin-top: 14% !important;
+}
+
+.sticky-header-active #brochure_btn a {
+    margin-top: 12% !important;
+}
+
+.mfp-figure img.mfp-img{
+    background: #4b7067 !Important;
+}
+
+h1.bannerh1 {
+    font-size: 27px !important;
+    line-height: 37px !important;
+    font-family: "Arial";
+    letter-spacing: 0.5px !important;
+}
+
+#sec2 .col-lg-3.featured-box-full, #sec2 .col-lg-6.featured-box-full {
+    padding: 0px;
+}
+
+#sec2 .col-lg-3.featured-box-full, #sec2 .col-lg-6.featured-box-full {
+    padding: 0px 0px 0px 0px;
+    background: transparent;
+    border: none;
+}
+
+section#services {
+    background: #ac9279 !important;
+}
+
+img.icoimg {
+    width: 100px;
+}
+
+#services .row.mb-lg-3 {
+    text-align: center;
+}
+
+#register h2 {
+    text-align: center;
+}
+
+#register .form-group.col {
+    text-align: center;
+}
+
+section#layout {
+    background: #4e7068 !important;
+}
+
+section#strategic {
+    background: #3a3a3a !important;
+}
+
+.header-logo img {
+    width: 194px !important;
+    height: 67px !important;
+}
+
+a.bannerbut {
+    background-color: #ac9279;
+    border: none;
+    border-radius: 0px !important;
+    font-family: raleway !important;
+    font-weight: 700 !important;
+}
+
+.header-nav a {
+    color: #fff !important;
+    font-family: "Arial";
+    text-transform: capitalize !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.5px !important;
+    padding: 0 23px !important;
+}
+
+h2.font-weight-bold {
+    font-family: "raleway";
+    text-transform: uppercase;
+    font-weight: 400 !important;
+    letter-spacing: 10px !important;
+    font-size: 24px;
+	line-height: 30px !important;
+}
+
+section#sec2 h2{
+	color: #ac9279 !important;
+	margin-bottom:30px !important;
+}
+
+section#services h2{
+	margin-bottom:30px !important;
+}
+p.text-3.mb-4 {
+    font-family: "raleway" !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.5px !important;
+}
+#sec2 h4.text-4 {
+    font-family: "Arial";
+    font-size: 14px !important;
+    color: #ac9279 !important;
+    letter-spacing: 0.5px !important;
+    line-height: 20px !important;
+}
+
+#sec2 .featured-box-full img {
+    width: 60px !important;
+}
+
+#services h4.text-4 {
+    color: #fff !important;
+    font-family: "Arial" !important;
+    font-weight: 500 !important;
+}
+
+#sec2 .col-md-6:nth-child(1) {
+    padding: 0px !important;
+}
+
+.divimg {
+    margin: 0 auto !important;
+    display: table;
+    width: 75px;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.divimgleft {
+    width: 75px;
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
+}
+
+#contact .col-md-6:nth-child(1) .divimgleft {
+	padding-left:18px !important;
+}
+
+#register input.btn.btn-primary.btn-rounded, #contact input.btn.btn-primary.btn-rounded {
+    background-color: #ac9279;
+    border: none;
+    border-radius: 0px !important;
+    font-family: raleway !important;
+    font-weight: 700 !important;
+	margin-top:30px !important;
+}
+
+#layout h2 {
+    margin-bottom: 30px !important;
+}
+
+#strategic .col h2, #strategic .col p {
+    text-align: left;
+}
+
+#strategic .col h2{
+	color:#ac9279 !important;
+}
+
+p.subtil {
+    color: #efcdaf !important;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#strategic .feature-box p {
+    font-family: raleway !important;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+}
+
+#strategic .feature-box.feature-box-style-2 h4 {
+    color: #efcdaf !important;
+    font-family: "Arial" !important;
+    font-size: 18px !important;
+	margin-bottom: 2px !important;
+}
+
+#strategic .feature-box-icon img {
+    width: 45px;
+}
+
+#contact .feature-box.feature-box-style-2 h4 {
+    color: #3a3a3a !important;
+    font-family: raleway !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px;
+}
+
+#contact .feature-box-info p {
+    color: #3a3a3a !important;
+    font-family: arial !important;
+    text-transform: uppercase;
+    font-size: 12px !important;
+    line-height: 21px;
+    letter-spacing: 0.5px !important;
+}
+
+#contact .feature-box-icon img {
+    width: 40px;
+}
+
+#contact .col-md-6:nth-child(1) h2 {
+    padding-left: 18px;
+}
+
+#contact .col-md-6:nth-child(1){
+	background:#ffffff !Important;
+}
+
+#contact .p-5{
+	padding-top:96px !important;
+	padding-bottom:96px !important;
+}
+
+#contact .my-5{
+	margin-top:0px !important;
+	margin-bottom:0px !important;
+}
+
+#footer .footer-copyright p {
+    color: #fff !important;
+    text-align: right !important;
+    font-weight: 100 !important;
+    font-size: 13px !important;
+}
+
+.lastbutton a{
+	border: 1px solid;
+    height: 35px !important;
+    min-height: 35px !important;
+    margin-top: 25% !important;
+}
+
+li.lastbutton {
+    margin-left: 80px !Important;
+}
+@media screen and (max-width: 850px){
+
+#home div#revolutionSlider_forcefullwidth {
+    max-height: 500px !important;
+}
+	
+.tp-parallax-wrap:nth-child(2) {
+    top: 180px !important;
+    left: 75px !important;
+}	
+.bannerlog img {
+    width: 260px !important;
+    height: auto !important;
+}
+	h1.bannerh1 {
+    font-size: 18px !important;
+    line-height: 27px !important;
+	}
+	.tp-parallax-wrap:nth-child(3) {
+    top: 250px !important;
+		left: 71px !important;
+}
+	.tp-parallax-wrap:nth-child(4) {
+    top: 340px !important;
+}
+	.tp-parallax-wrap:nth-child(5) {
+    top: 417px !important;
+}
+.p-5 {
+    padding: 3rem 20px!important;
+}
+	mt-5, .my-5 {
+    margin-top: 0px !important;
+		margin-bottom: 0px !important;
+}
+	#sec2 .col-lg-3.featured-box-full {
+    width: 50% !important;
+    margin-bottom: 27px !important;
+}
+	#services .mb-lg-3 {
+    padding: 0px 18px !important;
+}
+	#services .col-lg-3 {
+    width: 50% !important;
+}
+	img.icoimg {
+    width: 65px !important;
+}
+	#services .container.my-3 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+	section#strategic {
+    padding: 3rem 44px !important;
+}
+	section#strategic .feature-box .feature-box-info {
+    padding-left: 30px !important;
+}
+	#contact .my-5 {
+   padding: 3rem 44px !important;
+}
+	#footer .footer-copyright p {
+    text-align: left !important;
+}
+	#contact .pl-4, #contact .px-4{
+		padding-left:0px !important;
+		padding-right: 0px !important
+	}
+.header-logo img {
+    width: 150px !important;
+    height: auto !important;
+}
+	.fas {
+    font-size: 25px !important;
+    font-weight: 900 !important;
+}
+	
+	#header .header-btn-collapse-nav {
+    background: transparent;
+}
+	
+	#header.header-effect-shrink .header-container{
+		height: 80px !important;
+    min-height: 80px !important;
+	}
+	
+	.lastbutton a {
+    margin-top: 0 !important;
+}
+	#header .header-nav-main:not(.header-nav-main-mobile-dark) nav > ul > li > a {
+    padding: 10px 0 !important;
+    background: transparent !important;
+}
+	li.lastbutton {
+    margin-left: 0px !Important;
+}
+	#header .header-nav-main:not(.header-nav-main-mobile-dark) nav > ul > li.lastbutton a {
+    background: #ac9279 !important;
+    border: none;
+    padding-left: 10px !important;
+}
+	#header .header-nav-main nav > ul li {
+    border-bottom: 1px solid #e8e8e81f !important;
+	}
+#header .header-nav-main nav > ul {
+    padding-bottom: 25px !important;
+	}
+	
+	.sticky-header-active ul#mainNav .lastbutton a {
+    margin-top: 0% !important;
+}
+.tp-bgimg.defaultimg {
+    height: 85% !important;
+}
+#services .row.mb-lg-3 .col-lg-2 {
+    max-width: 50% !important;
+    width: 50% !important;
+    flex: 50% !Important;
+}
+
+.tp-bullets{
+        visibility: visible !important;
+        opacity:1 !important;
+        top:80% !Important;
+}
+
+}
