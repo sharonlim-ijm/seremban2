@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,44 +20,44 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-      <script>
-          function getDate() {
-              var today = new Date();
-              var dd = today.getDate();
-              var mm = today.getMonth() + 1; //January is 0!
-              var yyyy = today.getFullYear();
-              var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-              if (dd < 10) {
-                  dd = '0' + dd
-              }
+    <script>
+        function getDate() {
+            var today = new Date();
+            var dd = today.getDate();
+            var mm = today.getMonth() + 1; //January is 0!
+            var yyyy = today.getFullYear();
+            var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+            if (dd < 10) {
+                dd = '0' + dd
+            }
 
-              if (mm < 10) {
-                  mm = '0' + mm
-              }
+            if (mm < 10) {
+                mm = '0' + mm
+            }
 
-              today = yyyy + '/' + mm + '/' + dd + ' ' + time;
-              console.log(today);
-              document.getElementById("date").value = today;
-          }
+            today = yyyy + '/' + mm + '/' + dd + ' ' + time;
+            console.log(today);
+            document.getElementById("date").value = today;
+        }
 
 
-          window.onload = function () {
-              getDate();
-          };
+        window.onload = function () {
+            getDate();
+        };
 
-      </script>
+    </script>
 
-      <!-- Hotjar Tracking Code for http://seremban2.ijmland.com/rimbun_jasmine/ -->
-<script>
-    (function (h, o, t, j, a, r) {
-        h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-        h._hjSettings = { hjid: 1871183, hjsv: 6 };
-        a = o.getElementsByTagName('head')[0];
-        r = o.createElement('script'); r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-</script>
+    <!-- Hotjar Tracking Code for http://seremban2.ijmland.com/rimbun_jasmine/ -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 1871183, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
 
     <link rel="icon" href="images/favicon.png" />
     <!-- Bootstrap -->
@@ -72,326 +72,343 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- Global site tag (gtag.js) - Google Ads: 684059836 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-684059836"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-     <!-- Global site tag (gtag.js) - Google Ads: 684059836 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-684059836"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'AW-684059836');
-</script>
+        gtag('config', 'AW-684059836');
+    </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-41355934-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41355934-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'UA-41355934-1');
-</script>
+        gtag('config', 'UA-41355934-1');
+    </script>
 
     <!-- Facebook Pixel Code -->
-<script>
-    !function (f, b, e, v, n, t, s) {
-        if (f.fbq) return; n = f.fbq = function () {
-            n.callMethod ?
-            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        };
-        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-        n.queue = []; t = b.createElement(e); t.async = !0;
-        t.src = v; s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1284623801689727');
-    fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1284623801689727&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
-  </head>
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1284623801689727');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=1284623801689727&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PQWLR35');</script>
+    <!-- End Google Tag Manager -->
 
-  <body>
-    
+</head>
 
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQWLR35"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="header">
-      <div class="container">
-      	<div class="row">
-      		<div class="col-md-3"><img src="images/rimbun-jasmine-logo.png" class="rblogo text-center"></div>
-      		<div class="col-md-9">
-      			<ul class="rjnav">
-      				<li><a href="#home">Home</a></li>
-      				<li><a href="#location">Location</a></li>
-      				<li><a href="#register" style="color: #fbb03b">Register Interest</a></li>
-      			</ul>
-      		</div>
-         
-     	</div>
-      </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"><img src="images/rimbun-jasmine-logo.png" class="rblogo text-center"></div>
+                <div class="col-md-9">
+                    <ul class="rjnav">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#location">Location</a></li>
+                        <li><a href="#register" style="color: #fbb03b">Register Interest</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
     </div>
-      <div class="container">
-                  <a href="https://bit.ly/3a2GV8w">
-        <div class="waus">
+    <div class="container">
+        <a href="https://bit.ly/3a2GV8w">
+            <div class="waus">
 
-            <div class="waicon" "><img src="images/wa.png" class="img-responsive" alt="Whastapp Us"></div>
-            <div class="watxt" ">Whatsapp Us</div>
+                <div class="waicon" "><img src="images/wa.png" class="img-responsive" alt="Whastapp Us"></div>
+                <div class="watxt" ">Whatsapp Us</div>
 
-        </div>  
-                  </a>
-      </div>    
+            </div>
+        </a>
+    </div>
     <section class="content-1" id="home">
-      <div class="container">
-      	<div class="row">
-			<video autoplay muted loop id="myVideo" class="desk">
-			  <source src="images/rimbun-jasmine.mp4" type="video/mp4">
-			</video>
-<!-- 			<video autoplay muted loop id="myVideo" class="mob">
-			  <source src="images/rimbun-jasmine-m.mp4" type="video/mp4">
-			</video> -->
-      	</div>      
-      </div>
+        <div class="container">
+            <div class="row">
+                <video autoplay muted loop id="myVideo" class="desk">
+                    <source src="images/rimbun-jasmine.mp4" type="video/mp4">
+                </video>
+                <!-- 			<video autoplay muted loop id="myVideo" class="mob">
+                              <source src="images/rimbun-jasmine-m.mp4" type="video/mp4">
+                            </video> -->
+            </div>
+        </div>
     </section>
     <section class="content-2">
-    	<div class="container">
-    		<h2 class="text-center color-purple"> 2-Storey Link Homes</h2>
-    		<h3 class="text-center color-purple">20’ x 70’ - Low Density</h3>
-    		<div class="row mt-30">
-    			<div class="col-md-2"></div>
-    			<div class="col-md-4">
-    				<p class="color-purple2 mb-30">Living in the heart of everything.<br>Quality and affordability.<br>Convenience and connectivity.<br>Security and community.</p>
-    			</div>
-    			<div class="col-md-4">
-    				<p class="color-purple">Come home to an oasis of serenity,<br>a nurturing base for your family,<br>a gateway to everywhere wonderful.</p>
-    			</div>
-          <div class="col-md-2"></div>
-    		</div>
-    	</div>
+        <div class="container">
+            <h2 class="text-center color-purple"> 2-Storey Link Homes</h2>
+            <h3 class="text-center color-purple">20’ x 70’ - Low Density</h3>
+            <div class="row mt-30">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <p class="color-purple2 mb-30">Living in the heart of everything.<br>Quality and affordability.<br>Convenience and connectivity.<br>Security and community.</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="color-purple">Come home to an oasis of serenity,<br>a nurturing base for your family,<br>a gateway to everywhere wonderful.</p>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
     </section>
     <section class="content-3">
-    	<div class="container">
-    		<h2 class="text-center">CENTRAL LOCATION</h2>
-    		<h3 class="text-center">Amenities nearby</h3>
-    		<p class="text-center color-purple2 mt-30">Living in the heart of everything</p>
-    		<div class="row">
-    			<div class="col-md-4">
-    				<div class="ammicon"><img src="images/ammicon1.png"></div>
-    				<div class="ammtxt">
-    					<p class="color-purple2">Toll Plaza</p>
-    					<p class="smalltxt">Plaza Tol Seremban<br>Plaza Tol Bandar Ainsdale</p>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="ammicon"><img src="images/ammicon2.png"></div>
-    				<div class="ammtxt">
-    					<p class="color-purple2">Leisure</p>
-    					<p class="smalltxt">S2 Club<br>City Park, S2<br>Hill Park, S2 Height<br>Kepayang Hill</p>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="ammicon"><img src="images/ammicon3.png"></div>
-    				<div class="ammtxt">
-    					<p class="color-purple2">Hospital</p>
-    					<p class="smalltxt">Columbia Asia Hospital<br>KPJ Seremban Specialist Hospital</p>
-    				</div>
-    			</div>
-			</div>
-			<div class="row ammenities-mob">
-    			<div class="col-md-4">
-    				<div class="ammicon"><img src="images/ammicon4.png"></div>
-    				<div class="ammtxt">
-    					<p class="color-purple2">School</p>
-    					<p class="smalltxt">SJK (C) Hillside Seremban<br>SJK (C) Tung Hua S2 Heights<br>SMK Seremban 2<br>SK Seremban 2A<br>SK Seremban 2B<br>SK Wawasan </p>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="ammicon"><img src="images/ammicon5.png"></div>
-    				<div class="ammtxt">
-    					<p class="color-purple2">Shopping Mall</p>
-    					<p class="smalltxt">Tesco<br>AEON<br>Mydin Mall<br>NSK Trade Market<br>Palm Mall</p>
-    				</div>
-    			</div>
-    		</div>	
-    		<div class="row" id="location">
-    			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.330065027789!2d101.90853351475633!3d2.7179443980199465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMsKwNDMnMDQuNiJOIDEwMcKwNTQnMzguNiJF!5e0!3m2!1sen!2smy!4v1590720053589!5m2!1sen!2smy" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    		</div>
-    	</div>
-    </section>
-    <section class="content-4" >
-    	<div class="container" id="register">
-    		<h2 class="color-white text-center">RM4xx,xxx<br>Early Bird Special</h2>
-    		<h3 class="color-white text-center">Register your interest with 0% down payment</h3>
-    	</div>
-    </section>
-    <section class="leadform" >
-      <div class="container ">
-        <div class="row mt-20 ">
-          <div class="col-sm-2"></div>
-          <div class="col-sm-8">
-          	<p>Complete the below form for our friendly team member to get in touch with you.</p>
-          </div>  
-          <div class="col-sm-2"></div>
+        <div class="container">
+            <h2 class="text-center">CENTRAL LOCATION</h2>
+            <h3 class="text-center">Amenities nearby</h3>
+            <p class="text-center color-purple2 mt-30">Living in the heart of everything</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="ammicon"><img src="images/ammicon1.png"></div>
+                    <div class="ammtxt">
+                        <p class="color-purple2">Toll Plaza</p>
+                        <p class="smalltxt">Plaza Tol Seremban<br>Plaza Tol Bandar Ainsdale</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="ammicon"><img src="images/ammicon2.png"></div>
+                    <div class="ammtxt">
+                        <p class="color-purple2">Leisure</p>
+                        <p class="smalltxt">S2 Club<br>City Park, S2<br>Hill Park, S2 Height<br>Kepayang Hill</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="ammicon"><img src="images/ammicon3.png"></div>
+                    <div class="ammtxt">
+                        <p class="color-purple2">Hospital</p>
+                        <p class="smalltxt">Columbia Asia Hospital<br>KPJ Seremban Specialist Hospital</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row ammenities-mob">
+                <div class="col-md-4">
+                    <div class="ammicon"><img src="images/ammicon4.png"></div>
+                    <div class="ammtxt">
+                        <p class="color-purple2">School</p>
+                        <p class="smalltxt">SJK (C) Hillside Seremban<br>SJK (C) Tung Hua S2 Heights<br>SMK Seremban 2<br>SK Seremban 2A<br>SK Seremban 2B<br>SK Wawasan </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="ammicon"><img src="images/ammicon5.png"></div>
+                    <div class="ammtxt">
+                        <p class="color-purple2">Shopping Mall</p>
+                        <p class="smalltxt">Tesco<br>AEON<br>Mydin Mall<br>NSK Trade Market<br>Palm Mall</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.330065027789!2d101.90853351475633!3d2.7179443980199465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMsKwNDMnMDQuNiJOIDEwMcKwNTQnMzguNiJF!5e0!3m2!1sen!2smy!4v1590720053589!5m2!1sen!2smy" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
         </div>
-
-        <div class="row mb-40 mt-20">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-              <p class="mb-0">*Required</p>	
-              <form class="contact-form mt-20" id="myForm">
-				  <div class="form-group">
-				    <label for="InputName">Name*</label>
-                      <input type="text" class="form-control" name="InputFullName" placeholder="Name as per NRIC" required>
-				    
-				  </div>
-				  <div class="form-group">
-				    <label for="InputEmail">Email*</label>
-				    <input type="email" class="form-control" name="InputEmail" placeholder="E-mail" required>
-				  </div>
-				  <div class="form-group">
-				    <label for="InputMobile">Mobile No*</label>
-				    <input type="text" class="form-control" name="InputMobile" placeholder="Contact no." required>
-				  </div>
-                  
-					<div class="row" style="margin-bottom: 15px">
-						<div class="col-sm-12">
-							<p style="margin-bottom: 0">Have you purchased any property in Seremban 2 from IJM Land?* </p>
-						</div>
-						<div class="col-sm-3">
-							<div class="radio">					
-								<label>
-								<input type="radio" name="optionsPurchase" id="optionsPurchaseYes" value="Yes" >
-								Yes
-								</label>
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="radio">					
-								<label>
-									<input type="radio" name="optionsPurchase" id="optionsPurchaseNo" value="No" >
-									No
-								</label>
-							</div>
-						</div>
-					</div>
-
-					<div class="row" style="margin-bottom: 15px">
-						<div class="col-sm-12">
-							<p style="margin-bottom: 10px">Are you currently staying in Seremban 2?* </p>	
-						</div>
-						<div class="col-sm-3">
-							<div class="radio">					
-								<label>
-									<input type="radio" name="optionsStay" id="optionsStayYes" value="Yes" >
-									Yes
-								</label>
-							</div>
-						</div>
-						<div class="col-sm-9">
-							<div class="radio" style="float: left; margin-right: 20px">					
-								<label>
-									<input type="radio" name="optionsStay" id="optionsStayNo" value="No" >
-								No
-								</label>
-							</div>
-							<span style="float: left; width: 200px"><input type="text" class="form-control" name="stayat" placeholder="I am staying at" value=""></span>
-						</div>
-					</div>
-
-					<div class="row" style="margin-bottom: 15px">
-						<div class="col-sm-12">
-							<p style="margin-bottom: 0">Reason for buying*</p>	
-						</div>
-
-						<div class="col-sm-3">
-							<div class="radio">					
-								<label>
-									<input type="radio" name="optionReason" id="optionReason1" value="Own Stay" >
-									Own Stay
-								</label>
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="radio">					
-								<label>
-									<input type="radio" name="optionReason" id="optionReason2" value="Investment" >
-									Investment
-								</label>
-							</div>
-						</div>
-					</div>
-
-					<div class="form-group">
-						<p style="margin-bottom: 15px">How did you know about us?*</p>
-						<div class="checkbox">
-							<label><input class="form-check-input" type="checkbox" name="howdidyouknow" value="Friends / relative of IJM Land buyer" id="know1">Friends / relative of IJM Land buyer	</label>
-						</div>
-
-						<div class="checkbox">
-							<label><input class="form-check-input" type="checkbox" name="howdidyouknow" value="Billboard / Bunting / Banner" id="know2">Billboard / Bunting / Banner</label>
-						</div>
-						<div class="checkbox">
-							<label><input class="form-check-input" type="checkbox" name="howdidyouknow" value="Press article / Magazine" id="know3">Press article / Magazine</label>
-						</div>
-						<div class="checkbox">
-							<label><input class="form-check-input" type="checkbox" name="howdidyouknow" value="Social Media" id="know4">Social Media</label>
-						</div>
-						<div class="checkbox">
-							<label><input class="form-check-input" type="checkbox" name="howdidyouknow" value="Website" id="know5">Website</label>
-						</div>
-					</div>
-                
-					<div class="form-check" style="display: flex; margin-top: 30px">
-						<div style="width:5%;">
-							<input class="form-check-input" type="checkbox" value="Yes" id="defaultPDPACheck" required>
-						</div>
-						<div style="width: 95%;">
-							<p style="margin-top:0; font-size: 12px">  I have read and understood the terms of the <a href="http://seremban2.ijmland.com/data_protection.aspx" target="_blank">Privacy Notice</a> and consent to the processing of my Personal Data as described in the notice. / Saya telah membaca dan memahami terma-terma <a href="http://seremban2.ijmland.com/data_protection.aspx" target="_blank">Notis Privasi</a> dan memberi keizinan kepada pemprosesan Data Peribadi saya seperti yang dinyatakan.</p>
-						</div>
-					</div>
-
-                  <div class="text-center mt-30 mb-30">
-                      <input type="text" class="form-control" id="date" name="date" hidden>
-
-                      <input type="submit" value="Submit" class="submit-btn-2" id="Form-submit" />
-                      
-                  </div>
-              </form>
-            </div>  
-            <div class="col-md-2"></div>
-        </div>
-      </div>  
     </section>
-   	<section class="footer">
-   		<div class="container">
-   			<div class="row">
-   				<div class="col-md-3"><img src="images/ijmlogo.png" class="img-responsive ijmlogo"></div>
-   				<div class="col-md-3">
-   					<p class="color-white smalltxt">IJM Land Sales Gallery</p>
-   					<p class="color-white evensmalltxt">Seremban 2<br>PT 10786, Seremban 2,<br>70300 Seremban, Negeri Sembilan</p>
-   				</div>
-   				<div class="col-md-3">
-   					<p class="color-white smalltxt">Contacts</p>
-   					<p class="color-white evensmalltxt"><a href="mailto:sales.s2@ijm.com">sales.s2@ijm.com</a></p>
-   					<p class="color-white evensmalltxt"><a href="tel:1800222456">1800 222 456</a></p>
-   					<p class="color-white evensmalltxt"><a href="https://bit.ly/3a2GV8w">Whatsapp us</a></p>
-   				</div>
-   				<div class="col-md-3">
-   					<p class="color-white smalltxt">Links</p>
-   					<p class="color-white evensmalltxt"><a href="http://seremban2.ijmland.com/terms-conditions/" target="_blank">Terms & Conditions</a></p>
-   					<p class="color-white evensmalltxt"><a href="http://seremban2.ijmland.com/personal-data-notice-for-property-development/" target="_blank">Personal Data Notice</a></p>
-   					<p class="color-white evensmalltxt"><a href="http://seremban2.ijmland.com/personal-data-protection-policy/" target="_blank">Personal Data Protection Policy</a></p>
-   					<p class="color-white evensmalltxt"><a href="http://seremban2.ijmland.com/cookie_policy.aspx" target="_blank">Cookie Policy</a></p>
-   				</div>
-   			</div>
-   			<p class="color-white evensmalltxt mt-30">Copyrights © 2020 IJM Land Berhad 198901010104 (187405-T).</p>	
+    <section class="content-4">
+        <div class="container" id="register">
+            <h2 class="color-white text-center">RM4xx,xxx<br>Early Bird Special</h2>
+            <h3 class="color-white text-center">Register your interest with 0% down payment</h3>
+        </div>
+    </section>
+    <section class="leadform">
+        <div class="container ">
+            <div class="row mt-20 ">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>Complete the below form for our friendly team member to get in touch with you.</p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
 
-   		</div>
-   	</section>
-     
-  </body>
+            <div class="row mb-40 mt-20">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <p class="mb-0">*Required</p>
+                    <form class="contact-form mt-20" id="myForm">
+                        <div class="form-group">
+                            <label for="InputName">Name*</label>
+                            <input type="text" class="form-control" name="InputFullName" placeholder="Name as per NRIC" required>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="InputEmail">Email*</label>
+                            <input type="email" class="form-control" name="InputEmail" placeholder="E-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="InputMobile">Mobile No*</label>
+                            <input type="text" class="form-control" name="InputMobile" placeholder="Contact no." required>
+                        </div>
+
+                        <div class="row" style="margin-bottom: 15px">
+                            <div class="col-sm-12">
+                                <p style="margin-bottom: 0">Have you purchased any property in Seremban 2 from IJM Land?* </p>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="optionsPurchase" id="optionsPurchaseYes" value="Yes">
+                                        Yes
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="optionsPurchase" id="optionsPurchaseNo" value="No">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row" style="margin-bottom: 15px">
+                            <div class="col-sm-12">
+                                <p style="margin-bottom: 10px">Are you currently staying in Seremban 2?* </p>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="optionsStay" id="optionsStayYes" value="Yes">
+                                        Yes
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-sm-9">
+                                <div class="radio" style="float: left; margin-right: 20px">
+                                    <label>
+                                        <input type="radio" name="optionsStay" id="optionsStayNo" value="No">
+                                        No
+                                    </label>
+                                </div>
+                                <span style="float: left; width: 200px"><input type="text" class="form-control" name="stayat" placeholder="I am staying at" value=""></span>
+                            </div>
+                        </div>
+
+                        <div class="row" style="margin-bottom: 15px">
+                            <div class="col-sm-12">
+                                <p style="margin-bottom: 0">Reason for buying*</p>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="optionReason" id="optionReason1" value="Own Stay">
+                                        Own Stay
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="optionReason" id="optionReason2" value="Investment">
+                                        Investment
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <p style="margin-bottom: 15px">How did you know about us?*</p>
+                            <div class="checkbox">
+                                <label><input class="form-check-input" type="checkbox" name="howdidyouknow" value="Friends / relative of IJM Land buyer" id="know1">Friends / relative of IJM Land buyer	</label>
+                            </div>
+
+                            <div class="checkbox">
+                                <label><input class="form-check-input" type="checkbox" name="howdidyouknow" value="Billboard / Bunting / Banner" id="know2">Billboard / Bunting / Banner</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input class="form-check-input" type="checkbox" name="howdidyouknow" value="Press article / Magazine" id="know3">Press article / Magazine</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input class="form-check-input" type="checkbox" name="howdidyouknow" value="Social Media" id="know4">Social Media</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input class="form-check-input" type="checkbox" name="howdidyouknow" value="Website" id="know5">Website</label>
+                            </div>
+                        </div>
+
+                        <div class="form-check" style="display: flex; margin-top: 30px">
+                            <div style="width:5%;">
+                                <input class="form-check-input" type="checkbox" value="Yes" id="defaultPDPACheck" required>
+                            </div>
+                            <div style="width: 95%;">
+                                <p style="margin-top:0; font-size: 12px">  I have read and understood the terms of the <a href="http://seremban2.ijmland.com/data_protection.aspx" target="_blank">Privacy Notice</a> and consent to the processing of my Personal Data as described in the notice. / Saya telah membaca dan memahami terma-terma <a href="http://seremban2.ijmland.com/data_protection.aspx" target="_blank">Notis Privasi</a> dan memberi keizinan kepada pemprosesan Data Peribadi saya seperti yang dinyatakan.</p>
+                            </div>
+                        </div>
+
+                        <div class="text-center mt-30 mb-30">
+                            <input type="text" class="form-control" id="date" name="date" hidden>
+
+                            <input type="submit" value="Submit" class="submit-btn-2" id="Form-submit" />
+
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"><img src="images/ijmlogo.png" class="img-responsive ijmlogo"></div>
+                <div class="col-md-3">
+                    <p class="color-white smalltxt">IJM Land Sales Gallery</p>
+                    <p class="color-white evensmalltxt">Seremban 2<br>PT 10786, Seremban 2,<br>70300 Seremban, Negeri Sembilan</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="color-white smalltxt">Contacts</p>
+                    <p class="color-white evensmalltxt"><a href="mailto:sales.s2@ijm.com">sales.s2@ijm.com</a></p>
+                    <p class="color-white evensmalltxt"><a href="tel:1800222456">1800 222 456</a></p>
+                    <p class="color-white evensmalltxt"><a href="https://bit.ly/3a2GV8w">Whatsapp us</a></p>
+                </div>
+                <div class="col-md-3">
+                    <p class="color-white smalltxt">Links</p>
+                    <p class="color-white evensmalltxt"><a href="http://seremban2.ijmland.com/terms-conditions/" target="_blank">Terms & Conditions</a></p>
+                    <p class="color-white evensmalltxt"><a href="http://seremban2.ijmland.com/personal-data-notice-for-property-development/" target="_blank">Personal Data Notice</a></p>
+                    <p class="color-white evensmalltxt"><a href="http://seremban2.ijmland.com/personal-data-protection-policy/" target="_blank">Personal Data Protection Policy</a></p>
+                    <p class="color-white evensmalltxt"><a href="http://seremban2.ijmland.com/cookie_policy.aspx" target="_blank">Cookie Policy</a></p>
+                </div>
+            </div>
+            <p class="color-white evensmalltxt mt-30">Copyrights © 2020 IJM Land Berhad 198901010104 (187405-T).</p>
+
+        </div>
+    </section>
+
+</body>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
 
